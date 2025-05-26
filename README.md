@@ -25,7 +25,7 @@ Customer
 -Aggregates multiple BankAccount objects, supporting one-to-many relationship.
 -Provides functionality to display all accounts associated with a customer.
 
-InsufficientBalanceException
+InsufficientFundsException
 -Custom exception class.
 -Thrown when withdrawal operations violate account rules (e.g., overdraft exceeded).
 
@@ -58,7 +58,7 @@ Aggregation
 -Demonstrates a “has-a” relationship between customer and accounts.
 
 Exception Handling
--Custom InsufficientBalanceException improves program robustness.
+-Custom InsufficientFundsException improves program robustness.
 -Handled gracefully in the main class to ensure user-friendly error messages.
 
 
